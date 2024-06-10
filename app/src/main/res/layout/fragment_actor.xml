@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Actor Photo -->
+        <ImageView
+            android:id="@+id/actor_photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sahan"
+            android:contentDescription="@string/actor_photo" />
+
+        <!-- Actor Name -->
+        <TextView
+            android:id="@+id/actor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/actor_name"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:gravity="center"/>
+
+        <!-- Actor Bio -->
+        <TextView
+            android:id="@+id/actor_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/actor_bio"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Actor URL -->
+        <TextView
+            android:id="@+id/actor_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/actor_url"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:autoLink="web"/>
+
+        <!-- Movies/Series List -->
+        <TextView
+            android:id="@+id/movies_series_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movies_series"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:id="@+id/movies_series_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"/>
+
+        <!-- Error TextView -->
+        <TextView
+            android:id="@+id/txt_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text=""
+            android:textColor="@color/highlight_text_color"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/category_radio_group"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" />
+
+        <!-- Loading Spinner -->
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:indeterminate="true"
+            style="@style/SpinKitView.ThreeBounce"
+            app:SpinKit_Color="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/txt_error"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" />
+
+    </LinearLayout>
+</ScrollView>

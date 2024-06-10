@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">StarFace</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_no_account_signup">Don\'t have an account? <font color="#2196F3">Register Now</font></string>
+    <string name="txt_register_header">Create New Account</string>
+    <string name="txt_register_subheader">Please provide all the required information</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_username_hint">cheezycode</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_email_hint">starface@gmail.com</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_password_hint">........</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="txt_already_have_account">Already have an account?</string>
+    <string name="txt_login_header">Welcome Back!</string>
+    <string name="txt_login_subheader">Login to access your notes</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_error_message">%1$S*</string>
+    <string name="note_title">Title</string>
+    <string name="txt_title_hint">Write your title</string>
+    <string name="txt_description">Description</string>
+    <string name="txt_description_hint">Write your description</string>
+    <string name="txt_submit">Submit</string>
+    <string name="add_note">Add Note</string>
+    <string name="register">Register</string>
+    <string name="continue_offline_mode">Continue Offline Mode</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="banner_image_desc">Welcome Banner</string>
+    <string name="welcome_message">Welcome to Starface</string>
+    <string name="instructions">Starface is a face recognition app that works both online and offline. Get started now to experience seamless face recognition technology.</string>
+    <string name="avatar">Avatar</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="save">Save</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="email_not_verified">Email not verified</string>
+    <string name="email_verified">Email verified</string>
+        <string name="actor_photo">Actor Photo</string>
+        <string name="actor_name">Actor Name</string>
+        <string name="actor_bio">Actor Biography goes here...</string>
+        <string name="actor_url">https://www.actorwebsite.com</string>
+    <string name="error_fill_all_fields">Error!</string>
+    <string name="login_failed">Login Failed!</string>
+    <string name="login_success">Login Successful!</string>
+    <string name="movies_series">Movies/Series</string>
+    <string name="gender">Gender</string>
+
+</resources>
