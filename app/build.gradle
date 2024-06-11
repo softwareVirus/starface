@@ -9,7 +9,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.cheezycode.notesample"
+        applicationId "com.starface.frontend"
         minSdk 24
         targetSdk 32
         versionCode 1
