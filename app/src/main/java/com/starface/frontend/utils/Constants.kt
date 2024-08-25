@@ -15,7 +15,7 @@ object Constants {
         "Özkan Uğur", "İnan Ulaş Torun", "İrem Sak", "Şahan Gökbakar", "Şinasi Yurtsever"
     )
     const val TAG = "NOTESAPPTAG"
-    const val BASE_URL = "http://192.168.229.133:5000"
+    const val BASE_URL = "http://192.168.1.7:5000"
     const val USER_TOKEN = "user_token"
     const val PREFS_TOKEN_FILE = "prefs_token_file"
     const val PREFS_USER_FILE = "prefs_token_file"

@@ -34,7 +34,7 @@ class CameraFragment : Fragment(), FaceDetectorHelper.DetectorListener {
 
     private var _fragmentCameraBinding: FragmentCameraBinding? = null
 
-    private val fragmentCameraBinding
+    private val fragmentCameraBindingf
         get() = _fragmentCameraBinding!!
 
     private lateinit var faceDetectorHelper: FaceDetectorHelper
